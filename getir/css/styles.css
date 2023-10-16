@@ -1,0 +1,142 @@
+body{
+  background-color: #fafafa;
+  /* #FAFAFA; */
+dosyada değişiklik yapıldı
+2.ci değişiklik css dosysaında
+}
+main{
+  margin-top: 24px;
+  padding: 3% 7%;
+  text-align: center;
+}
+footer{
+  padding: 3% 10%;
+}
+
+h6{
+  color:#a691cb;
+}
+
+a{
+  color: black;
+  line-height: 2;
+  text-decoration: none;
+}
+a:hover{
+  color: inherit;
+}
+p{
+  color:#5D3EBC;
+}
+/* a:hover{
+  background-color: #5D3EBC;
+} */
+
+/* NAVBAR CSS */
+.navbar {
+  z-index: 2;
+}
+.navbar-padding{
+  padding: 0 7% 0;
+}
+.background-color-1{
+  background: #4C3398;
+}
+.background-color-2{
+  background-color: #5D3EBC;
+}
+.navbar-text-color{
+  color: #dadafe;
+}
+.getircarsi {
+  
+  display: none;
+}
+
+/* HEADER CSSS */
+.header-padding{
+  padding: 1% 7%;
+}
+.active{
+  background-color: black;
+}
+
+.border-color{
+  border-color: #5D3EBC;
+}
+
+
+
+.banner{
+  background-color: #697488;
+  height: 100px;
+}
+.banner-bg{
+background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(209,209,209,1) 100%);
+}
+/* navigation bar */
+
+
+/* .container-fluid{
+  background: #4C3398;
+  width: 80%;
+
+  margin: 0 auto;
+  border: 5px solid;
+} */
+
+/* Carousel Section */
+.cards-wrapper{
+  display: flex;
+  background-color: #fafafa;
+
+}
+.card{
+  margin: 0 0.5em;
+  width: calc(100%/3);
+  /* #5D3EBC */
+}
+.card-body{
+
+}
+
+/* I'll delete this later */
+.align{
+  text-align: center;
+}
+
+/* colors */
+.purple {
+  color: #5D3EBC;
+}
+
+.purple-dark{
+  background-color: #4C3398;
+}
+.purple-hover{
+  background-color: #F3F0FE;
+}
+
+.urun-img{
+  width: calc(100%)
+}
+
+/* Sepetim */
+.sepet-text{
+  line-height: 2;
+  font-size: 1rem;
+}
+.sepet-img{
+  margin: 60px auto;
+
+}
+
+/* FOOTER */
+.download-img{
+  margin: 5% 30% 0 0;
+}
+
+.social-icon {
+
+  gin: 20px 10px;
+}

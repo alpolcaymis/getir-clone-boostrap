@@ -1,0 +1,692 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Yeni Ürünler</title>
+
+  <!-- fontawesome -->
+  <script src="https://kit.fontawesome.com/f94b5286bf.js" crossorigin="anonymous"></script>
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@900&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@900&family=Ubuntu&display=swap" rel="stylesheet">
+
+
+  <!-- Bootstrap JS-->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+
+  <!-- CSS Stylesheets - Bootstrap and Mine -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/styles.css">
+
+</head>
+
+
+<body>
+  <!-- NAVİGATİON AND HEADER -->
+  
+
+
+  <div style="z-index:1" class="container-fluid background-color-1 position-sticky top-0 ">
+    <!-- Navigation -->
+      <nav class="navbar navbar-expand-lg background-color-1 navbar-padding">
+        <div class="container-fluid">
+        <nav class="nav nav-tabs text-white">
+
+          <a style="background-color:#5D3EBC;" class="navbar-brand nav-link active navbar-text-color border-bottom-0" href="#"><img src="images/getir.svg" alt=""></a>
+          <a style="font-size:0.999rem;" class="navbar-brand nav-link nav-a-hover navbar-text-color" href="#">getiryemek</a>
+          <a style="font-size:0.999rem;" class="navbar-brand nav-link nav-a-hover navbar-text-color" href="#">getirbüyük</a>
+          <a style="font-size:0.999rem;" class="navbar-brand nav-link nav-a-hover navbar-text-color" href="#">getirsu</a>
+          <a style="font-size:0.999rem;" class="navbar-brand nav-link nav-a-hover navbar-text-color d-lg-block d-md-none" href="#">getirçarşı</a>
+        </nav>
+
+          <!-- mobile-size  dropdown -->
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <li class="nav-item align-self-center ms-1">
+              <i class="fa-solid fa-globe navbar-text-color"></i>
+              </li>
+              <li class="nav-item ms-1">
+                <a class="nav-link navbar-text-color" aria-current="page" href="#">Türkçe (TR)</a>
+              </li>
+              <li class="nav-item align-self-center ms-1">
+                <i class="fa-solid fa-gift navbar-text-color "></i>
+              </li>
+              <li class="nav-item ms-1">
+                <a class="nav-link navbar-text-color" href="#">Kampanyalar</a>
+              </li>
+              <li class="nav-item align-self-center ms-1">
+                <i class="fa-solid fa-user navbar-text-color"></i>
+              </li>
+              <li class="nav-item dropdown ">
+                <a class="nav-link dropdown-toggle navbar-text-color" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Profil
+                </a>
+
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Adreslerim</a></li>
+                  <li><a class="dropdown-item" href="#">Favori Ürünlerim</a></li>
+                  <li><a class="dropdown-item" href="#">Geçmiş Siparişlerim</a></li>
+                  <li><a class="dropdown-item" href="#">Ödeme Yöntemlerim</a></li>
+                  <li><a class="dropdown-item" href="#">Fatura Bilgileri</a></li>
+                  <li><a class="dropdown-item" href="#">İletişim Tercihlerim</a></li>
+                  <li>
+                    <hr class="dropdown-divider">
+                  </li>
+                  <li><a class="dropdown-item" href="#">Çıkış Yap</a></li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+
+
+        </div>
+      </nav>
+
+<!-- Header Search Bar -->
+      <nav class="navbar background-color-2 header-padding">
+        <div class="container-fluid justify-content-between">
+          <a class="navbar-brand"><img src="images/getir.svg" alt=""></a>
+          <form class="d-flex" role="search">
+            <input style="width:500px;" class="form-control me-2 justify-content-center" type="search"
+            placeholder=" 🔍  Ürün Ara                                                                 💒 Ev >" aria-label="Search">
+
+          </form>
+          <a href="#"></a>
+        </div>
+      </nav>
+    </div>
+
+
+
+
+
+
+
+
+  <!-- Minimum Getirmesi Kısmı Banner -->
+
+  <div class="container-fluid header-padding banner-bg shadow bg-white rounded">
+    <div class="row">
+
+      <div class="col-lg-3 col-md-3">
+        <div class="row">
+          <div class="col-lg-6 col-md-6">
+            <div class="row">
+              <div class="col-lg-4 col-md-4 align-self-center">
+                <img src="images/minimum.svg" alt="">
+              </div>
+              <div class="col-lg-8 col-md-8">
+                <span class="p-2">Minimum</span>
+                <span class="p-2">₺50,00</span>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6 col-md-6">
+            <div class="row">
+              <div class="col-lg-4 col-md-4 align-self-center">
+                <img class="ms-4"src="images/getirmesi.svg" alt="">
+              </div>
+              <div class="col-lg-8 col-md-8">
+                <span class="p-2 ms-4">Getirmesi</span>
+                <span class="p-2 ms-4">₺50,00</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-9 col-md-9">
+
+      </div>
+
+    </div>
+
+  </div>
+
+
+
+
+
+  <!-- MAIN İNCLUDES 3 PARTS -->
+
+
+  <main>
+    <div class="">
+
+      <!-- Carousel Slide -->
+      <section id="carousel-section">
+
+        <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <div class="cards-wrapper">
+                <!-- first three cards                 -->
+                <div class="card" >
+                  <img src="images/carousel-1.jpeg" class="card-img-top" alt="...">
+
+                </div>
+                <div class="card" >
+                  <img src="images/carousel-2.jpeg" class="card-img-top" alt="...">
+
+                </div>
+                <div class="card" >
+                  <img src="images/carousel-3.jpeg" class="card-img-top" alt="...">
+
+                </div>
+                      <!-- cards finish        -->
+              </div>
+            </div>
+
+            <!-- second three cards -->
+            <div class="carousel-item">
+              <div class="cards-wrapper">
+                <!-- second three cards                 -->
+                <div class="card" >
+                  <img src="images/carousel-4.jpeg" class="card-img-top" alt="...">
+
+                </div>
+                <div class="card" >
+                  <img src="images/carousel-5.jpeg" class="card-img-top" alt="...">
+
+                </div>
+                <div class="card" >
+                  <img src="images/carousel-6.jpeg" class="card-img-top" alt="...">
+
+                </div>
+                      <!-- cards finish        -->
+              </div>
+            </div>
+
+            <div class="carousel-item">
+              <div class="cards-wrapper">
+                <!-- third three cards                 -->
+                <div class="card" >
+                  <img src="images/carousel-7.jpeg" class="card-img-top" alt="...">
+
+                </div>
+                <div class="card" >
+                  <img src="images/carousel-8.jpeg" class="card-img-top" alt="...">
+
+                </div>
+                <div class="card" >
+                  <img src="images/carousel-9.jpeg" class="card-img-top" alt="...">
+
+                </div>
+                      <!-- cards finish        -->
+              </div>
+            </div>
+
+          </div> <!--  carousel inner div close tag -->
+
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button> <!--  button color will be #5D3EBC -->
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+
+
+
+<!-- KATEGORİ & YENİ ÜRÜNLER & SEPETİM -->
+<section id="kategori-section">
+  <!-- Button trigger modal -->
+
+
+  <!-- Modal -->
+  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header bg-light">
+          <h5 class="modal-title" id="exampleModalLabel">İçim Süzme Peynir 500 G</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <div class="container">
+            <div class="row">
+
+
+            <div class="col-lg-4">
+              <img class="border rounded urun-img" src="images/urun-1.jpeg" alt="">
+            </div>
+            <div class="col-lg-8">
+              <h5>içim</h5>
+              <p style="height:100px" class="overflow-auto">
+                İçim Süzme Beyaz Peynir, sütten gelen pürüzsüz yumuşak dokusu ve ağızda eriyen kıvamı ile kahvaltılarınızı lezzetlendirdiği gibi makarna börek ve hatta tatlılarınıza da çok yakışır.
+
+İşletme Kayıt No
+TR-35-0889
+
+Net Miktar (g/ml)
+500
+
+Menşei
+TÜRKİYE
+
+İçindekiler
+Pastörize inek sütü , tuz , peynir mayası , peynir kültürü
+
+Alerjen Uyarısı
+Pastörize inek sütü
+
+Saklama Koşulları
+0-4 °C muhafaza ediniz
+
+Gıda İşletmecisi / Üretici / İthalatçı / Dağıtıcı
+SEHER GIDA PAZ.SAN.VE TİC.A.Ş.
+
+Ürün Bilgilerini Kullanma Hakkında
+İnternet sitemizde ve online satış kanallarımızda yer alan ürün etiket bilgileri, ürünün tedarikçisi tarafından Migros Ticaret A.Ş.’ye iletilen en güncel bilgilerdir. Ürün etiket bilgileri ile internet sitemiz ve online satış kanallarımızda bulunan bilgiler arasında herhangi bir farklılık bulunması halinde sorumluluk tamamen tedarikçi firmaya aittir.
+              </p>
+
+            </div>
+          </div>
+          </div>
+        </div>
+        <div class="modal-footer background-color-1">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-primary">Sepete Ekle</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+
+<div class="container">
+      <div class="row">
+        <!-- kategoriler -->
+        <div class="col-lg-3 d-sm-none d-md-block d-lg-block">
+          <h5>kategoriler</h5>
+          <div class="accordion accordion-flush" id="accordionFlushExample">
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="flush-headingOne">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                  <i class="icon fa-solid fa-circle-check fa-2x"></i> Yeni Ürünler
+                </button>
+              </h2>
+              <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the first item's accordion body.</div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="flush-headingTwo">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                  <i class="icon fa-solid fa-circle-check fa-2x"></i> İndirimler
+                </button>
+              </h2>
+              <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the second item's accordion body. Let's imagine this being filled with some actual content.</div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="flush-headingThree">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                  <i class="icon fa-solid fa-circle-check fa-2x"></i> Yaza Özel
+                </button>
+              </h2>
+              <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the third item's accordion body. Nothing more exciting happening here in terms of content, but just filling up the space to make it look, at least at first glance, a bit more representative of how this would look in a real-world application.</div>
+              </div>
+            </div>
+
+          </div>
+
+        </div>
+        <!-- Yeni Ürünler -->
+        <div class="col-lg-6 ">
+          <div class="row overflow-auto">
+            <h5>Ürünler</h5>
+            <div class="col-lg-3 col-md-4 col-sm-4">
+              <button type="button" class="btn border-none" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                <img class="urun-img" src="images/urun-1.jpeg" alt="">
+              </button>
+              <h6 class="purple">₺24,50</h6>
+              <span>içim süzme peynir</span>
+              <p>250 g</p>
+            </div>
+            <div class="col-lg-3 col-md-4 col-sm-4">
+              <button type="button" class="btn border-none" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                <img class="urun-img" src="images/urun-2.jpg" alt="">
+              </button>
+              <h6 class="purple">₺10,50</h6>
+              <span>Komili Olibites Sele</span>
+              <p>15 g</p>
+            </div>
+            <div class="col-lg-3 col-md-4 col-sm-4">
+              <button type="button" class="btn border-none" data-bs-toggle="modal" data-bs-target="#exampleModal">
+
+                <img class="urun-img" src="images/urun-3.jpeg" alt="">
+              </button>
+              <h6 class="purple">₺49,99</h6>
+              <span>Teksüt Örgü Peyniri</span>
+              <p>200 g</p>
+            </div>
+            <div class="col-lg-3 col-md-4 col-sm-4">
+              <img class="urun-img" src="images/urun-4.jpeg" alt="">
+              <h6 class="purple">₺12,59</h6>
+              <span>Pakmaya Aşure</span>
+              <p>230g</p>
+            </div>
+            <div class="col-lg-3 col-md-4 col-sm-4">
+              <img class="urun-img" src="images/urun-5.jpeg" alt="">
+              <h6 class="purple">₺41,50</h6>
+              <span>Sütaş Kaşar Peynri</span>
+              <p>225g</p>
+            </div>
+            <div class="col-lg-3 col-md-4 col-sm-4">
+              <img class="urun-img" src="images/urun-6.jpeg" alt="">
+              <h6 class="purple">₺56,50</h6>
+              <span>İçim Kaşar Peyniri</span>
+              <p>400g</p>
+            </div>
+            <div class="col-lg-3 col-md-4 col-sm-4">
+              <img class="urun-img" src="images/urun-7.jpeg" alt="">
+              <h6 class="purple">₺24,99</h6>
+              <span>Sütaş Süzme Peynir</span>
+              <p>250g</p>
+            </div>
+            <div class="col-lg-3 col-md-4 col-sm-4">
+              <img class="urun-img" src="images/urun-8.jpeg" alt="">
+              <h6 class="purple">₺19,20</h6>
+              <span>Heinz Barbekü Sos</span>
+              <p>225g</p>
+            </div>
+            <div class="col-lg-3 col-md-4 col-sm-4">
+              <img class="urun-img" src="images/urun-9.jpeg" alt="">
+              <h6 class="purple">₺7,99</h6>
+              <span>Mountain Dew Gazlı İçecek</span>
+              <p>450ml</p>
+            </div>
+            <div class="col-lg-3 col-md-4 col-sm-4">
+              <img class="urun-img" src="images/urun-10.jpeg" alt="">
+              <h6 class="purple">₺22,99</h6>
+              <span>Polonez Dana Füme Et</span>
+              <p>50g</p>
+            </div>
+            <div class="col-lg-3 col-md-4 col-sm-4">
+              <img class="urun-img" src="images/urun-11.jpeg" alt="">
+              <h6 class="purple">₺10,99</h6>
+              <span>Polonez Piliç Füme</span>
+              <p>60g</p>
+            </div>
+            <div class="col-lg-3 col-md-4 col-sm-4">
+              <img class="urun-img" src="images/urun-12.jpeg" alt="">
+              <h6 class="purple">₺38,20</h6>
+              <span>Uni Baby Şampuan</span>
+              <p>700ml</p>
+            </div>
+          </div>
+
+
+
+        </div>
+        <!-- Sepetim and Geçmiş Siparişlerim -->
+        <div class="col-lg-3 d-sm-none d-md-none d-lg-block">
+
+          <div class="row">
+            <h5>Sepetim</h5>
+            <div style="padding:7%; border: 2px solid; border-radius: 3%; border-color:gold;"class="col-lg-12">
+              <div class="row">
+                <div class="col-lg-12">
+
+                  <img class="sepet-img" src="images/sepetiniz-bos.svg" alt="">
+                  <h3 class="purple sepet-text">Sepetiniz şu an boş</h3>
+                  <p>Sipariş vermek için sepetinize ürün ekleyin.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <hr>
+
+          <div class="row">
+            <h5>Geçmiş Siparişlerim</h5>
+            <div class="col-lg-12">
+              <div  style="border: 1px solid;" class="row">
+                <div class="col-lg-3 align-self-center">
+                  <img style="padding:3px; margin:5%;"class="border border-2 border-light rounded-circle"src="images/ev.png" alt="">
+                </div>
+                <div class="col-lg-4">
+                  <div class="row row-cols-1">
+                    <div class="col ">
+                      <p>8 Nisan 2022</p>
+                    </div>
+                    <div class="col">
+                      <h6>Ev</h6>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-5 align-self-center">
+                  <div  style="border: 1px solid;" class="row">
+                    <div class="col-lg-4">
+                      <img src="images/çanta.svg" alt="">
+
+                    </div>
+                    <div class="col-lg-8  ">
+                      <p><bold>₺101,35</bold></p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div  style="border: 1px solid;" class="row">
+                <div class="col-lg-3 align-self-center">
+                  <img style="padding:3px; margin:5%;"class="border border-2 border-light rounded-circle"src="images/ev.png" alt="">
+                </div>
+                <div class="col-lg-4">
+                  <div class="row row-cols-1">
+                    <div class="col ">
+                      <p>8 Nisan 2022</p>
+                    </div>
+                    <div class="col">
+                      <h6>Ev</h6>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-5 align-self-center">
+                  <div  style="border: 1px solid;" class="row">
+                    <div class="col-lg-4">
+                      <img src="images/çanta.svg" alt="">
+
+                    </div>
+                    <div class="col-lg-8  ">
+                      <p>₺101,35</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div  style="border: 1px solid;" class="row">
+                <div class="col-lg-3 align-self-center">
+                  <img style="padding:3px; margin:5%;"class="border border-2 border-light rounded-circle"src="images/ev.png" alt="">
+                </div>
+                <div class="col-lg-4">
+                  <div class="row row-cols-1">
+                    <div class="col ">
+                      <p>8 Nisan 2022</p>
+                    </div>
+                    <div class="col">
+                      <h6>Ev</h6>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-5 align-self-center">
+                  <div  style="border: 1px solid;" class="row">
+                    <div class="col-lg-4">
+                      <img src="images/çanta.svg" alt="">
+
+                    </div>
+                    <div class="col-lg-8  ">
+                      <p>₺101,35</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div> <!-- container finish tag -->
+
+  </section>
+
+  </div>
+
+  </main>
+  </section>
+
+
+  <!-- FOOTER -->
+
+  <section id="footer">
+
+
+
+  <footer>
+    <nav>
+      <div class="row">
+
+        <div class="col">
+          <h6>Getir'i İndirin</h6>
+
+          <div class="row download-img">
+            <a href="https://apps.apple.com/tr/app/getir/id995280265?l=tr">
+            <img class="download-img" src="images/getir-indir-1.svg" alt="">
+            </a>
+          </div>
+          <div class="row download-img">
+            <a href="https://play.google.com/store/apps/details?id=com.getir&hl=en&gl=US">
+            <img class="download-img" src="images/getir-indir-2.svg" alt="">
+            </a>
+          </div>
+
+          <div class="row download-img">
+            <a href="#">
+            <img class="download-img" src="images/getir-indir-3.svg" alt="">
+            </a>
+          </div>
+        </div>
+
+        <div class="col">
+
+          <h6>Getir'i keşfedin?</h6>
+          <div class="row">
+
+            <a href="#">Hakkımızda</a>
+          </div>
+          <div class="row">
+
+            <a href="#">Kariyer</a>
+          </div>
+          <div class="row">
+
+            <a href="#">Teknoloji Kariyerleri</a>
+          </div>
+          <div class="row">
+
+            <a href="#">İletişim</a>
+          </div>
+          <div class="row">
+
+            <a href="#">Sosyal Sorumluluk Projeleri</a>
+          </div>
+        </div>
+
+        <div class="col">
+
+          <h6>Yardıma mı ihtiyacınız var?</h6>
+          <div class="row">
+
+            <a href="#">Sıkça Sorular Sorular</a>
+          </div>
+          <div class="row">
+
+            <a href="#">Kişisel Verilerin Korunması</a>
+          </div>
+          <div class="row">
+
+            <a href="#">Gizlilik Politikası</a>
+          </div>
+          <div class="row">
+
+            <a href="#">Kullanım Koşulları</a>
+          </div>
+          <div class="row">
+
+            <a href="#">Çerez Politikası</a>
+          </div>
+        </div>
+
+        <div class="col">
+
+          <h6>İş Ortağımız Olun?</h6>
+          <div class="row">
+
+            <a href="#">Bayimiz Olun</a>
+          </div>
+          <div class="row">
+
+            <a href="#">Deponuzu Kiralayın</a>
+          </div>
+          <div class="row">
+
+            <a href="#">GetirYemek Restoranı Olun</a>
+          </div>
+          <div class="row">
+
+            <a href="#">GetirÇarşı İşletmesi Olun</a>
+          </div>
+          <div class="row">
+
+            <a href="#">Zincir Restoranlar</a>
+          </div>
+        </div>
+
+        <div class="col d-md-none">
+          <img src="images/barkod.png" alt="">
+
+        </div>
+
+
+      </div>
+
+    </nav>
+<hr>
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-4">
+              <p>©2022 Getir</p>
+          </div>
+          <div class="col-4">
+
+          </div>
+          <div class="col-4">
+            <a href=""><i class="social-icon fa-brands fa-facebook"></i></a>
+            <a href=""><i class="social-icon fa-brands fa-twitter"></i></a>
+            <a href=""><i class="social-icon fa-brands fa-instagram"></i></a>
+            <a href=""><i class="social-icon fa-solid fa-envelope"></i></a>
+
+
+          </div>
+
+        </div>
+
+
+      </div>
+  </footer>
+</section>
+
+</body>
+
+</html>
